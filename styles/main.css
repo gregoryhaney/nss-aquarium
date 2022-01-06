@@ -1,77 +1,89 @@
-#fishtank {
-
-
+body {
+   
 }
 
 
-.fish {
-
-
+header {
+    text-align: center;
 }
 
 
-.fish_name {
 
+h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fishCollection {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+}
+
+
+.fishcard {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+    align-items: flex-start;
+}
+
+.fishImage {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;   
+}
+
+.card {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex; 
+    align-items: flex-start;   
+}
+
+
+
+.travelTips {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+}
+
+.scubaTravelTips {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+}
+
+.harvestLocations {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+}
+
+
+.tankInfo {
 
 }
 
 aside {
     display: flex;
-    border: 1px solid blue;
-    background-color: seashell;
-    padding: 1em;
-    margin: 0.5em;
+    border: 1px solid;
     justify-content: flex-end;
-}
-
-header {
-    text-align: center;
-    color: red;
-    background-color: seashell;
-}
-
-
-
-body {
-    background-color: aquamarine;
-}
-
-
-
-.card {
-    border: 1px solid blue;
-    background-color: seashell;
-    padding: 1em;
-    margin: 0.5em;
-    display: flex;
-    
-    
-    justify-content: flex-start; /* Evenly space the child elements */
-}
-
-.fishImage {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.scubaTravelTips {
-    border: 1px solid blue;
-    background-color: seashell;
-    padding: 1em;
-    margin: 0.5em;
-    display: flex;
-
-}
-
-.harvestLocations {
-    border: 1px solid blue;
-    background-color: seashell;
-    padding: 1em;
-    margin: 0.5em;
-    display: flex;
-}
-
-h3 {
-    text-align: center;
 }
