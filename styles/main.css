@@ -1,3 +1,77 @@
-#fishtank {}
-.fish {}
-.fish_name {}
+#fishtank {
+
+
+}
+
+
+.fish {
+
+
+}
+
+
+.fish_name {
+
+
+}
+
+aside {
+    display: flex;
+    border: 1px solid blue;
+    background-color: seashell;
+    padding: 1em;
+    margin: 0.5em;
+    justify-content: flex-end;
+}
+
+header {
+    text-align: center;
+    color: red;
+    background-color: seashell;
+}
+
+
+
+body {
+    background-color: aquamarine;
+}
+
+
+
+.card {
+    border: 1px solid blue;
+    background-color: seashell;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+    
+    
+    justify-content: flex-start; /* Evenly space the child elements */
+}
+
+.fishImage {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.scubaTravelTips {
+    border: 1px solid blue;
+    background-color: seashell;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+
+}
+
+.harvestLocations {
+    border: 1px solid blue;
+    background-color: seashell;
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+}
