@@ -26,21 +26,24 @@ h3 {
     border: 6px solid;
     padding: 1em;
     margin: 0.5em;
-  /*  flex-flow: row nowrap;   */
-   /* flex-basis: 16%;   Make each child element the same width */
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 
 .fishcard {
     border: 1px solid;    
     background-color: seashell;
+    /* align-items: flex-start; */
 }
 
-.fishImage {
+.image {
     border: 1px solid;
     padding: 1em;
     margin: 0.5em;   
-    align-items: flex-start;
+    box-sizing: border-box;
+   
+    flex-basis: 20%;
     
       
 }
@@ -50,6 +53,9 @@ h3 {
     padding: 1em;
     margin: 0.5em;    
     text-align: left; 
+  
+    box-sizing: border-box;
+    flex-basis: 20%;
 }
 
 
