@@ -7,7 +7,6 @@ main {
 
 header {
     text-align: center;
-    font-weight: bold;
     width: 100%;
     background-color: rgb(175, 192, 192);
     color: red;
@@ -122,7 +121,6 @@ aside {
     padding: 1px;
     margin: 2px;   
     align-items: flex-start;
-    /* flex-basis: 30%;    */
     flex-wrap: wrap;   
     text-align: left;
     background-color: seashell;
@@ -132,8 +130,7 @@ aside {
     border: 1px solid;
     padding: 1px;
     margin: 2px;   
-    align-items: flex-start;
-   /* flex-basis: 10%; */    
+    align-items: flex-start; 
     flex-wrap: wrap;   
     text-align: left;
     background-color: seashell;
