@@ -20,6 +20,10 @@ h3 {
     color: red;
 }
 
+h4 {
+    text-align: center;   
+    width: 100%;
+}
 
 .fishCollection {
     background-color: rgb(175, 192, 192);
@@ -89,16 +93,14 @@ h3 {
     align-items: flex-start;
     flex-basis: 30%;
     flex-wrap: wrap;   
-    text-align: left;
+    text-align: center;
 }
 
 aside {
     border: 1px solid;
     padding: 1px;
     margin: 2px;   
-    align-items: flex-start;
-    flex-basis: 10%;    
-    flex-wrap: wrap;
+    align-items: flex-start; 
     text-align: left;
     background-color: seashell;   
 }
